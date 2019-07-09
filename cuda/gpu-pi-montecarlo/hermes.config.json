@@ -1,0 +1,8 @@
+{
+	"functionName": "gpu-pi-montecarlo",
+	"language": "cuda",
+	"gpuCapable": true,
+	"scope": "public",
+	"functionVersion": "1.0.0",
+	"handler": "./a.out"
+}
