@@ -1,0 +1,1 @@
+Solves http://codeforces.com/contest/1175/problem/C
