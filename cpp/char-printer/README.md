@@ -8,14 +8,19 @@ input: a 3
 output: aaa
 ```
 
-Deploy with `hermes-cli` using:
+Deploy with the Hermes CLI using:
 
 ```bash
-hermes deploy <pathToThisFolder>
+$ cd pathToCharPrinterFolder
+$ hermes function deploy
 ```
 
-Start a run using:
+Start a sync run using:
 
 ```bash
-hermes run <yourUsername>/char-printer:1.0.0
+hermes function run run <yourUsername>/char-printer:1.0.0 --sync
+```
+Or a async run:
+```bash
+hermes function run run <yourUsername>/char-printer:1.0.0 --async
 ```
