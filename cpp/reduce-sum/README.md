@@ -7,15 +7,19 @@ This simple function accepts a integer `n` followed by `n` integers. The output 
 input: 5 1 2 3 4 5
 output: 15
 ```
-
-Deploy with `hermes-cli` using:
+Deploy with the Hermes CLI using:
 
 ```bash
-hermes deploy <pathToThisFolder>
+$ cd pathToReduceSumFolder
+$ hermes function:deploy
 ```
 
-Start a run using:
+Start a sync run using:
 
 ```bash
-hermes run <yourUsername>/reduce-sum:1.0.0
+hermes function:run <yourUsername>/reduce-sum:1.0.0
+```
+Or a async run:
+```bash
+hermes function:run <yourUsername>/reduce-sum:1.0.0 --async
 ```

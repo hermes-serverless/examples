@@ -21,15 +21,15 @@ Deploy with the Hermes CLI using:
 
 ```bash
 $ cd pathToGPUPiMontecarlo
-$ hermes function deploy
+$ hermes function:deploy
 ```
 
 Start a sync run using:
 
 ```bash
-hermes function run run <yourUsername>/gpu-pi-montecarlo:1.0.0 --sync
+hermes function:run <yourUsername>/gpu-pi-montecarlo:1.0.0
 ```
 Or a async run:
 ```bash
-hermes function run run <yourUsername>/gpu-pi-montecarlo:1.0.0 --async
+hermes function:run <yourUsername>/gpu-pi-montecarlo:1.0.0 --async
 ```
